@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'Validators.dart';
+import './blocs/Validators.dart';
 
 class Bloc extends Object with Validators {
   final _emailController = StreamController<String>();
